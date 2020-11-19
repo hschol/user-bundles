@@ -4,7 +4,7 @@ metadata:
  name: loki-output
 spec:
  loki:
-   url: http://loki.loki.svc:3100
+   url: http://loki.qstars.nl:3100
    configure_kubernetes_labels: true
    buffer:
      timekey: 1m
